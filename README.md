@@ -3,7 +3,7 @@
 #Para o programa acima, realize as seguintes inserções (utilize os conceitos de
 OO vistos sempre que possível):
 
-![Imagem da classe principal](https://i.ibb.co/K6qGGf1/Captura-de-tela-2022-11-30-153123.png)
+!(https://i.ibb.co/K6qGGf1/Captura-de-tela-2022-11-30-153123.png)
 
 (a) Defina a classe _ProdutoEstoque_, cujo objetos são criados das linhas 4 a 7. Um
 produto, representado por esta classe, possui um nome, um valor e a quantidade
