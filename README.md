@@ -1,6 +1,6 @@
-### Suponha o código abaixo que manipula um objeto que representa um carrinho de compras.
+# Suponha o código abaixo que manipula um objeto que representa um carrinho de compras.
 
-# Para o programa acima, realize as seguintes inserções (utilize os conceitos de
+### Para o programa acima, realize as seguintes inserções (utilize os conceitos de
 OO vistos sempre que possível):
 
 ![tste](https://i.ibb.co/K6qGGf1/Captura-de-tela-2022-11-30-153123.png)
