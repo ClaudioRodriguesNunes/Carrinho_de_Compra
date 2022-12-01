@@ -17,12 +17,13 @@ public class EstoqueProdutos{
     criando o objetor vetor
      */
     public EstoqueProdutos(){
+
         this.produtos = new ArrayList<ProdutoEstoque>();
     }
 
     public void adicionaProduto(String nome, int valor, int quantidade) {
         for (ProdutoEstoque produtos : this.produtos)
-            if (produtos.getNomeProduto().toUpperCase().equals(nome.toUpperCase())) {
+            if (produtos.getNomeProduto().equalsIgnoreCase(nome)) {
                 produtos.setValorProduto(valor);
                 produtos.setQuantidadeProduto(quantidade);
             }
@@ -41,12 +42,16 @@ public class EstoqueProdutos{
     public boolean alterar(String nome, int valor, int quantidade)
     {
         for (ProdutoEstoque produto : this.produtos)
-            if(produto.getNomeProduto().toUpperCase().equals(nome.toUpperCase()))
+            if(produto.getNomeProduto().equalsIgnoreCase(nome))
             {
                 produto.setQuantidadeProduto(quantidade);
                 produto.setValorProduto(valor);
                 return true;
             }
         return false;
+    }
+
+    public String toString(){
+        return "nome: ";
     }
 }

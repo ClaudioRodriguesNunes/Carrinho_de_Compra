@@ -9,6 +9,11 @@ public class Principal{
         produtos.adicionaProduto("ssd",250,200);
         produtos.adicionaProduto("placa mãe",1100,10);
 
-        Arrays.stream(new EstoqueProdutos[]{produtos}).forEach(System.out::print;
+        produtos.buscar("ssd");
+
+        produtos.alterar("ssd",250,115);
+        produtos.alterar("placa mãe",1000,10);
+
+        System.out.println(produtos);
     }
 }
