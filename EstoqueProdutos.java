@@ -1,5 +1,14 @@
+import java.util.ArrayList;
+import java.lang.String;
+
 public class EstoqueProdutos {
-    public void adicionaProduto(char nome, int valor, int quantidade){
-        
+    String nome;
+    int valor,qtde;
+    public void adicionaProduto(ProdutoEstoque p){
+        ArrayList<ProdutoEstoque> x = new ArrayList<ProdutoEstoque>();
+        x.add(p);
+        //ProdutoEstoque p = new ProdutoEstoque(nome,valor,qtde);
     }
+
+
 }
