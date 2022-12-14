@@ -1,4 +1,4 @@
-# Suponha o código abaixo que manipula um objeto que representa um carrinho de compras (Eu deixei mais simples).
+# Suponha o código abaixo que manipula um objeto que representa um carrinho de compras.
 
 ### Para o programa acima, realize as seguintes inserções (utilize os conceitos de
 OO vistos sempre que possível):
