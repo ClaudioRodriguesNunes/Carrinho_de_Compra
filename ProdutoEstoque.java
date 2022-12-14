@@ -5,12 +5,19 @@ public class ProdutoEstoque {
     private int quantidade;
 
     public ProdutoEstoque(String n, int v, int q) {
+        /*super();
+        setNome(n);
+        setValor(v);
+        setQuantidade(q);*/
         this.nome = n;
         this.valor = v;
         this.quantidade = q;
     }
 
     public ProdutoEstoque(String n,int q){
+        /*super();
+        setNome(n);
+        setQuantidade(q);*/
         this.nome = n;
         this.quantidade = q;
     }
@@ -23,7 +30,6 @@ public class ProdutoEstoque {
     public void setQuantidade(int quantidade) {
         this.quantidade = quantidade;
     }
-    public void setValor(int valor) {
-        this.valor = valor;
-    }
+    public void setValor(int valor) {this.valor = valor;}
+
 }

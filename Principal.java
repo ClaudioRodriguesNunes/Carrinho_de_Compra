@@ -12,7 +12,7 @@ public class Principal {
         CarrinhoCompra carrinho = new CarrinhoCompra(estoque);
 
         carrinho.adicionaItem("monitor",2);
-        carrinho.adicionaItem("telefone",2);
+        carrinho.adicionaItem("telefone",5);
         carrinho.adicionaItem("teclado",2);
 
         carrinho.finalizaCompra();
