@@ -1,5 +1,4 @@
-https://i.ibb.co/fYxYZBF/Captura-de-tela-2022-12-16-003416.png
-
+ <img src=”https://github.com/webcarioca/Trabalho_de_POO/blob/4abe266199dc4b8906add004e76e7e28b13816e0/Pilha_ex_07/Captura%20de%20tela%202022-12-16%20003416.png”>
 O código acima inicia a declaração de uma classe que implementa uma estrutura
 de dados do tipo pilha. A implementação dessa pilha é baseada em vetor (valores). A
 variável topo indica o topo corrente da pilha (-1 para quando a pilha está vazia). A
